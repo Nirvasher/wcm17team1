@@ -17,8 +17,20 @@ h1 {
   margin: 0;
 }
 .container {
-  width: 820px;
+  width: 80%;
   margin: 0 auto;
+  text-align: center;
+  border-style: solid;
+  border-color: lightblue;
+  background-color: #b4ddc5;
+}
+.container p{
+  font-size: 110%;
+  font-weight: bold;
+}
+.container h1{
+  /* nu får rubrikerna denna färgen eftersom inget annat är sagt */
+color: #C21A1F;
 }
 header {
   background: #313131;
