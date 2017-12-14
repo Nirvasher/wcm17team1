@@ -56,3 +56,52 @@ nav ul a:hover {
 main h1 {
   color: #b4ddc5;
 }
+
+
+
+/* CSS för footer */
+.row {
+	background-color: #313131;
+	margin: 0 auto;
+	height: 250px;
+}
+
+.columnLeft {
+	width: 30%;
+	color: white;
+	display: inline-block;
+	font-size: 20px;
+	float: left;
+	text-align: center;
+}
+
+.columnCenter {
+	width: 30%;
+	color: white;
+	display: inline-block;
+	font-size: 20px;
+	text-align: center;
+}
+
+.columnRight {
+	width: 30%;
+	color: white;
+	display: inline-block;
+	font-size: 20px;
+	float: right;
+	text-align: center;
+}
+
+.copyright {
+	background-color: #b4ddc5;
+	height: 30px;
+	font-size: 18px;
+	text-align: center;
+}
+
+li {
+	list-style: none
+}
+
+
+
