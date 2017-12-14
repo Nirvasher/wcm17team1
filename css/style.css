@@ -49,7 +49,7 @@ nav ul a {
 }
 nav ul a:hover {
   border-radius: 5px;
-  background: #fff;
+  background: #b4ddc5;
   color: #000;
   text-decoration: none;
 }
@@ -60,12 +60,19 @@ main h1 {
 
 
 /* CSS för footer */
-.row {
-	background-color: #313131;
-	margin: 0 auto;
-	height: 250px;
+footer {
+  background: #313131;
+  overflow: hidden;
+  padding-top: 25px;
+  margin-top: 40px;
 }
-
+.row:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}
 .columnLeft {
 	width: 30%;
 	color: white;
@@ -74,11 +81,15 @@ main h1 {
 	float: left;
 	text-align: center;
 }
-
+.columnLeft img {
+  width: 100px;
+  margin: 0 auto;
+}
 .columnCenter {
 	width: 30%;
 	color: white;
 	display: inline-block;
+  float: left;
 	font-size: 15px;
 	text-align: center;
 }
@@ -99,12 +110,14 @@ main h1 {
 	text-align: center;
   color: black;
 }
-
+footer h2 {
+  margin-top: 0;
+}
+ul {
+  padding: 0;
+}
 li {
 	list-style: none
 }
 
 /* Slut på CSS för footer*/
-
-
-
