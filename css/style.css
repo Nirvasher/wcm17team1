@@ -1,3 +1,71 @@
 /*
   CSS-dokument för projektarbetet för WCM17 team 1.
   */
+  body {
+  				margin:0;
+  				padding:0;
+  				font-family: Sans-Serif;
+  				line-height: 1.5em;
+  			}
+
+  			header {
+  				background: grey;
+  				height: 75px;
+  			}
+
+  			header h1 {
+  				margin: 0;
+  				padding-top: 15px;
+  			}
+
+  			main {
+  				padding-bottom: 10010px;
+  				margin-bottom: -10000px;
+  				float: left;
+  				width: 100%;
+  			}
+
+  			nav {
+  				padding-bottom: 10010px;
+  				margin-bottom: -10000px;
+  				float: left;
+  				width: 230px;
+  				margin-left: -230px;
+  				background: darkgrey;
+  			}
+
+        .projbild {
+          width: 100%;
+          height: 450px;
+        }
+
+        .h1textheader {
+          margin-left: 34%;
+        }
+
+        .h1textheading {
+          margin-left: 25%;
+        }
+
+        #wrapper {
+    				overflow: hidden;
+    			}
+
+    			#content {
+    				margin-right: 230px; /* Same as 'nav' width */
+    			}
+
+        			p {
+        				color: #555;
+        			}
+
+        			nav ul {
+        				list-style-type: none;
+        				margin: 0;
+        				padding: 0;
+        			}
+
+        			nav ul a {
+        				color: darkgreen;
+        				text-decoration: none;
+        			}
