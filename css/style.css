@@ -16,9 +16,27 @@ h1 {
   font-family: 'Kalam', cursive;
   margin: 0;
 }
-.container {
+.container{
   width: 820px;
   margin: 0 auto;
+}
+/* #projekt, #grupp, #faser, #lean, #scrum, #github{
+    color: #C21A1F;
+} */
+.container2 h1{
+  color: #C21A1F;
+}
+.container2 {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  border-style: solid;
+  border-color: lightblue;
+  background-color: #b4ddc5;
+}
+.container2 p{
+  font-size: 110%;
+  font-weight: bold;
 }
 header {
   background: #313131;
@@ -52,9 +70,6 @@ nav ul a:hover {
   background: #b4ddc5;
   color: #000;
   text-decoration: none;
-}
-main h1 {
-  color: #b4ddc5;
 }
 
 
