@@ -1,9 +1,58 @@
 /*
   CSS-dokument för projektarbetet för WCM17 team 1.
-  */
+*/
 html {
   font-family: 'Indie Flower', cursive;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  background: #fff;
 }
 h1 {
   font-family: 'Kalam', cursive;
+  margin: 0;
+}
+.container {
+  width: 820px;
+  margin: 0 auto;
+}
+header {
+  background: #313131;
+  color: #fff;
+  margin-bottom: 35px;
+}
+header .container {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr;
+}
+.header-logo h1 {
+  padding: 5px 0 5px 0;
+}
+nav {
+  display: block;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  float: right;
+}
+nav ul li {
+  display: inline;
+}
+nav ul a {
+  color: #fff;
+  padding: 5px 6px;
+}
+nav ul a:hover {
+  border-radius: 5px;
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+}
+main h1 {
+  color: #b4ddc5;
 }
