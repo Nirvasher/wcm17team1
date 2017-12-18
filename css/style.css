@@ -123,6 +123,50 @@ main .text {
   padding-bottom: 20px;
   border-bottom: 5px solid #eee;
 }
+main .container.intro {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ), url('../images/people.jpg') no-repeat center center fixed;
+  /* background: #b4ddc5 url('../images/people.jpg') no-repeat center center fixed; */
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .container.intro .text {
+  width: 400px;
+  text-align: center;
+}
+main .intro h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.2rem;
+  padding: 0;
+  color: #fff;
+}
+main .intro span {
+  font-family: 'Kalam', cursive;
+  font-size: 4rem;
+  margin: 0;
+  color: #fff;
+}
+main .intro .text a {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 120%;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 20px 0 0 0;
+  background: #b4ddc5;
+  color: #000;
+  text-decoration: none;
+}
+main .intro .text a:hover {
+  background: #fff;
+}
 main div.text:last-of-type {
   border: 0;
 }
