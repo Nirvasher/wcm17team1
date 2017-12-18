@@ -93,16 +93,17 @@ nav ul {
 
 nav ul a {
   display: block;
+  border-radius: 5px;
+  background: #000;
   color: #fff;
   padding: 5px 6px;
+  margin: 0 5px 0 0;
   text-decoration: none;
 }
 
 nav ul a:hover {
-  border-radius: 5px;
   background: #b4ddc5;
   color: #000;
-  text-decoration: none;
 }
 
 /* Slut på CSS för header/navigation */
@@ -321,8 +322,12 @@ footer li {
   }
   nav ul {
     float: none;
-    margin: 0 20px 0 20px;
+    margin: 0 20px 5px 20px;
     flex-direction: column;
+  }
+  nav ul a {
+    padding: 5px 6px;
+    margin: 0 0 5px 0;
   }
   .container {
     width: 100%;
