@@ -21,6 +21,17 @@ h1 {
   margin: 0;
 }
 
+figcaption {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 80%;
+  color: #999;
+  text-align: center;
+}
+
+.image-fullwidth {
+  width: 100%;
+}
+
 .container {
   width: 820px;
   margin: 0 auto;
