@@ -128,7 +128,6 @@ main .container.intro {
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
     ), url('../images/people.jpg') no-repeat center center fixed;
-  /* background: #b4ddc5 url('../images/people.jpg') no-repeat center center fixed; */
   background-size: cover;
   width: 100%;
   height: 100vh;
